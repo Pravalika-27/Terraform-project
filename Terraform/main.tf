@@ -11,6 +11,3 @@ resource "aws_instance" "myec2" {
   tags = {
       Name = "My Terra Inst"
   }
-  key_name = "1209"
-}
-
