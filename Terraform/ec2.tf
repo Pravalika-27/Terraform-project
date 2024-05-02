@@ -56,13 +56,6 @@ resource "aws_instance""myec2"{
   key_name="K8"
 }
 
-resource "aws_s3_bucket" "example" {
-  bucket = "my-tf-intercareer-bucket"
-  tags = {
-    Name        = "My bucket"
-    Environment = "Dev"
-  }
-}
 
 
 
