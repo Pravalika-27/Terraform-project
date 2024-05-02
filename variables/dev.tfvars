@@ -1,7 +1,2 @@
 region = "us-east-1"
 vpcname = "Terra_VPC"
-vpccidr = "172.32.0.0/24"
-subnet1name = "Terra_Sub_1"
-subnet1cidr = "172.32.0.0/25"
-subnet2name = "Terra_Sub_2"
-subnet2cidr = "172.32.0.128/25"
