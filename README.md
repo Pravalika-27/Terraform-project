@@ -31,6 +31,9 @@ This guide outlines the steps to deploy an EC2 instance on AWS using Terraform, 
    ```bash
    mkdir ec2
    cd ec2
+6. **Write Terraform Configuration:**
+     Populate the .tf files with the appropriate Terraform configuration.
+   ```bash
    vi ec2_dep.tf variables.tf
    vi app1_dev.tfvars
    vi app1_uat.tfvars
