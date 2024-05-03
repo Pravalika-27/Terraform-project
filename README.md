@@ -21,9 +21,12 @@ This guide outlines the steps to deploy an EC2 instance on AWS using Terraform, 
 4. **Install Unzip and Terraform:**
    ```bash
    sudo yum install -y unzip
-   wget https://releases.hashicorp.com/terraform/<VERSION>/terraform_<VERSION>_linux_amd64.zip
+   curl -O https://releases.hashicorp.com/terraform/0.14.11/terraform_0.14.11_linux_amd64.zip
    unzip terraform_<VERSION>_linux_amd64.zip
-   sudo mv terraform /usr/local/bin/
+   sudo mv terraform
+   /usr/local/bin/
+   /usr/bin/
+   /usr/sbin/
 5. **Create Directory and Files:**
    ```bash
    mkdir ec2
