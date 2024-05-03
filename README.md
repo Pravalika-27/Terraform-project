@@ -49,7 +49,7 @@ This guide outlines the steps to deploy an EC2 instance on AWS using Terraform, 
     ```bash
     terraform destroy -var-file=app1_dev.tfvars
 11. **Repeat for UAT Environment:**
-      Modify the .tfvars file accordingly for UAT environment Repeat steps 8 to 11 with app1_uat.tfvars.
+      Modify the .tfvars file accordingly for UAT environment Repeat steps 8 with app1_uat.tfvars.
 
       
       
