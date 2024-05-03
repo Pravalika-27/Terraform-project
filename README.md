@@ -38,3 +38,18 @@ This guide outlines the steps to deploy an EC2 instance on AWS using Terraform, 
    vi app1_dev.tfvars
    vi app1_uat.tfvars
    vi backend.tf
+7. **Create S3 Bucket:**
+     Use the AWS Management Console to create an S3 bucket with globally unique name.
+8. **Apply Terraform Configuration:**
+    ```bash
+   terraform apply -var-file=app1_dev.tfvars
+9. ** Check Resources on AWS Console:**
+      After applying, verify the creation of VPC, subnets, EC2 instances, and S3 bucket on the AWS Management Console.
+10. ** Destroy Resources:**
+    ```bash
+    terraform destroy -var-file=app1_dev.tfvars
+11. **Repeat for UAT Environment:**
+      Modify the .tfvars file accordingly for UAT environment Repeat steps 8 to 11 with app1_uat.tfvars.
+
+      
+      
