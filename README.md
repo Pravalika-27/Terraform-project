@@ -1,5 +1,4 @@
-# AWS EC2 Deployment with Terraform
-
+# AWS EC2 Deployment with Terraform 
 This guide outlines the steps to deploy an EC2 instance on AWS using Terraform, along with managing the lifecycle of resources including VPC, subnets, and S3 buckets.
 
 ## Prerequisites
