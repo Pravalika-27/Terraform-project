@@ -11,5 +11,5 @@ resource "aws_instance" "myec2" {
   tags = {
       Name = "My Terra"
   }
-  key_name = "1209"
+  key_name = "Sareen"
 }
