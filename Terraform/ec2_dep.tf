@@ -54,5 +54,5 @@ resource "aws_instance""myec2"{
     Name="Terra-Ec2"
   }
   security_groups=[aws_security_group.mysg.id]
-  key_name="K8"
+  key_name="Sareen"
 }
