@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "us-east-1"
+  region     = "us-east-2"
   profile    = "default"
 }
 
@@ -9,7 +9,7 @@ resource "aws_instance" "myec2" {
   subnet_id = "subnet-0e91a1f7fc88ec32c"
   security_groups = ["sg-0b35d8431600bf13b"] 
   tags = {
-      Name = "My Terra Inst"
+      Name = "My Terra"
   }
   key_name = "1209"
 }
