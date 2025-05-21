@@ -47,12 +47,12 @@ resource "aws_security_group""mysg"{
 }
 
 resource "aws_instance""myec2"{
-  ami="ami-013e83f579886baeb"
+  ami="ami-0e58b56aa4d64231b"
   instance_type="t2.micro"
   subnet_id=aws_subnet.subnetA.id
   tags={
     Name="Terra-Ec2"
   }
   security_groups=[aws_security_group.mysg.id]
-  key_name="Sareen"
+  key_name="Pravalika"
 }
