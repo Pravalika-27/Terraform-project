@@ -4,12 +4,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "myec2" {
-  ami = "ami-026b57f3c383c2eec" 
+  ami = "ami-0e58b56aa4d64231b" 
   instance_type = "t2.micro"
-  subnet_id = "subnet-0e91a1f7fc88ec32c"
-  security_groups = ["sg-0b35d8431600bf13b"] 
+  subnet_id = "subnet-0dc63b0ae86ed36e6"
+  security_groups = ["sg-07813107c9c520c87"] 
   tags = {
-      Name = "My Terra"
+      Name = "My Terraform"
   }
-  key_name = "Sareen"
+  key_name = "Pravalika"
 }
